@@ -1,0 +1,55 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+}
+
+.bg-img {
+    background-image: url(/assets/img/background.jpg);
+    height: 593px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn {
+    height: 52px;
+    color: #23A6F0;
+}
+
+/* common css */
+
+.header{
+    position: relative;
+    width: 100%;
+    background: transparent;
+    padding: 16px 0 17px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 59px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.main-logo {
+    color: #FFFFFF;
+}
+
+.row{
+    display: flex;
+}
