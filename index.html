@@ -7,6 +7,11 @@
     <title>Home page</title>
     <link rel="stylesheet" href="/css/style.css">
 
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+        integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,37 +23,37 @@
 <body>
     <header>
         <div class="bg-img">
-            <div class="header">
-                <div class="container">
-                    <div class="row">
-
-                        <div>
-                            <a class="main-logo" href="/index.html">BrandName</a>
-                        </div>
-                        <div>
-                            <nav class="row">
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="">Product</a></li>
-                                    <li><a href="">Pricing</a></li>
-                                    <li><a href="">Contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div>
-                            <a href="">Login</a>
-                        </div>
-                        <div class="btn">
-                            <button type="button">Become a member<i class="fa-solid fa-arrow-right"></i></button>
-                        </div>
-
+            <nav class="navbar navbar-expand-lg navbar-light text-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">BrandName</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
     <main></main>
     <footer></footer>
+
+    <!-- js link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"
+        integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
